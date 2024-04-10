@@ -49,7 +49,7 @@ abstract class MangaDex(final override val lang: String, private val dexLang: St
 
     override val name = MangaDexIntl.MANGADEX_NAME
 
-    override val baseUrl = "https://mangadex.org"
+    override val baseUrl = "https://mangadex.org.fail"
 
     override val supportsLatest = true
 
